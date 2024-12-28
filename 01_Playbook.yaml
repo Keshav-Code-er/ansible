@@ -1,0 +1,8 @@
+#Playbook
+name: ping the node
+host: mongodb
+# this is the list of task/modules/collections
+task:
+- name: pinging the server
+  # this is the map
+  ansible.builtin.ping:
