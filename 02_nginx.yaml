@@ -1,0 +1,12 @@
+- name: Install and run nginx # this is not mandatory but this is best practice
+  host: mongodb
+  become: yes # this will root access
+  task:
+  - name: Install nginx
+    ansible.builtin.yum:
+      name: nginx
+      state: installed
+  - name: start nginx
+    ansible.bultin.service:
+      name: nginx
+      state: started   
