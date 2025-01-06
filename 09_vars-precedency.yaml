@@ -15,5 +15,5 @@
     vars:
       Name: Siva Reddy-task
     ansible.builtin.debug:
-      msg: "Trainer name is {{Name}}"
+      msg: "Trainer name iss {{Name}}"
   
