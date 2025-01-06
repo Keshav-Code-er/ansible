@@ -3,17 +3,21 @@
   #This is at play level
   vars:
     Name: Siva Reddy-play
+    #files level
   vars_files:
   - variable.yaml
+  #prompt level
   vars_prompt:
   - name: Name
     prompt: Enter trainer Name
     private: false
-
+   
   tasks:
   - name: variable at task level
-    vars:
-      Name: Siva Reddy-task
+    #task level
+    # vars:
+    #   Name: Siva Reddy-task
+      #args level
     ansible.builtin.debug:
       msg: "Trainer name iss {{Name}}"
   
