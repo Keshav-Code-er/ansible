@@ -1,2 +1,6 @@
 [mongodb]
 roboshop-us-dev-mongodb-01.joindevops.shop
+
+[mongodb:vars]
+MONGO_USERNAME=mongodbchef
+MONGO_DB=categories
