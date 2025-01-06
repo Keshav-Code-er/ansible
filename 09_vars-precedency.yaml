@@ -1,8 +1,8 @@
 - name: Test variable precendence
   hosts: mongodb
   #This is at play level
-  vars:
-    Name: Siva Reddy-play
+  # vars:
+  #   Name: Siva Reddy-play
     #files level
   # vars_files:
   # - variable.yaml
