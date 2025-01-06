@@ -4,8 +4,8 @@
   vars:
     Name: Siva Reddy-play
     #files level
-  vars_files:
-  - variable.yaml
+  # vars_files:
+  # - variable.yaml
   #prompt level
   vars_prompt:
   - name: Name
