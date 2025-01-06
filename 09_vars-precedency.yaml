@@ -7,10 +7,10 @@
   # vars_files:
   # - variable.yaml
   #prompt level
-  vars_prompt:
-  - name: Name
-    prompt: Enter trainer Name
-    private: false
+  # vars_prompt:
+  # - name: Name
+  #   prompt: Enter trainer Name
+  #   private: false
    
   tasks:
   - name: variable at task level
