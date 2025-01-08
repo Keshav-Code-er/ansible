@@ -1,5 +1,5 @@
 [mongodb]
-172.31.87.129
+roboshop-us-dev-mongodb-01.joindevops.shop
 
 [mongodb:vars]
 MONGO_USERNAME=mongodbchef
