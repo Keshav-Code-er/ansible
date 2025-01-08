@@ -7,7 +7,7 @@
       name: "{{item}}"
       state: installed
     loop:
-    - ngnix
+    - nginx
     - postfix
     - cyrus-sasl-plain
     - mailx
