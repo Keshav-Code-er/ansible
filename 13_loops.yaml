@@ -1,5 +1,5 @@
 - name: loops in ansible
-  hosts: localhost
+  hosts: localhost # you no need to give username and password through ansible commnd line
   tasks:
   - name: print the name
     ansible.builtin.debug:
