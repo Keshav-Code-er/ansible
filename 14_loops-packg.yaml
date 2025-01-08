@@ -1,11 +1,11 @@
 - name: install Package
   hosts: mongodb
-  #become: yes
+  become: yes
   tasks:
   - name: install Package
     ansible.builtin.yum:
       name: "{{item}}"
-      state: absent
+      state: installed
     loop:
     - nginx
     - postfix
