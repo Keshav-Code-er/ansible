@@ -5,7 +5,7 @@
   - name: install Package
     ansible.builtin.yum:
       name: "{{item}}"
-      state: removed
+      state: installed
     loop:
     - nginx
     - postfix
